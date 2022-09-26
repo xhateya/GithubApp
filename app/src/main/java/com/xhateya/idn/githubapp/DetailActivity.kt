@@ -7,11 +7,11 @@ import com.xhateya.idn.githubapp.databinding.ActivityDetailBinding
 
 class DetailActivity : AppCompatActivity() {
 
-    companion object{
-        private  var EXTRA_USERNAME = "extra_username"
+    companion object {
+        private var EXTRA_USERNAME = "extra_username"
     }
 
-    private  lateinit var  detailBinding: ActivityDetailBinding
+    private lateinit var detailBinding: ActivityDetailBinding
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,18 +21,18 @@ class DetailActivity : AppCompatActivity() {
         supportActionBar?.hide()
 
         val user = intent.getParcelableExtra<User>(EXTRA_USERNAME) as User
-        Glide.with(this).load(user.avatar).into(detailBinding.ivUsrDetail)
+        Glide.with(this)
+            .load(user.avatar)
+            .into(detailBinding.ivUsrDetail)
+
         detailBinding.tvUsernameDetail.text = user.username
         detailBinding.tvNameDetail.text = user.name
-        detailBinding.tvAbout.text= user.about
+        detailBinding.tvAbout.text = user.about
         detailBinding.tvCompany.text = user.company
         detailBinding.tvLocationDetail.text = user.location
         detailBinding.tvRepo.text = user.repository
         detailBinding.tvFollowers.text = user.followers
         detailBinding.tvFollowing.text = user.following
-
-
-
 
 
     }

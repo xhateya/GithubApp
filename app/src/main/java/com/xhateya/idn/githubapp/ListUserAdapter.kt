@@ -14,7 +14,6 @@ class ListUserAdapter(private val listUser: ArrayList<User>) :
         RecyclerView.ViewHolder(binding.root) {
         fun bind(user: User) {
 
-
             binding.tvUsername.text = user.username
             binding.tvLocation.text = user.name
 
