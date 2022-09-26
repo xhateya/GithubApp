@@ -19,7 +19,7 @@
             android:id="@+id/ivUser"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:src="@drawable/user3"
+            android:src="@drawable/user11"
             android:layout_marginStart="5dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"

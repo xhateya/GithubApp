@@ -12,29 +12,29 @@
     <string name="txt_github">Github</string>
 
     <string-array name="username">
-        <item>JakeWharton</item>
-        <item>amitshekhariitbhu</item>
-        <item>romainguy</item>
-        <item>chrisbanes</item>
-        <item>tipsy</item>
-        <item>ravi8x</item>
-        <item>jasoet</item>
-        <item>budioktaviyan</item>
-        <item>hendisantika</item>
-        <item>sidiqpermana</item>
+        <item>Anshyela</item>
+        <item>Apple_Rain</item>
+        <item>Camelatte</item>
+        <item>Chezlaa</item>
+        <item>Led_ih</item>
+        <item>Waxxyna</item>
+        <item>Xyndana</item>
+        <item>Salyee</item>
+        <item>Macca</item>
+        <item>Qoneeta</item>
     </string-array>
 
     <string-array name="name">
-        <item>Jake Wharton</item>
-        <item>Amit Shekhar</item>
-        <item>Romain Guy</item>
-        <item>Chris Banes</item>
-        <item>David</item>
-        <item>Ravi Tamada</item>
-        <item>Deny Prasetyo</item>
-        <item>Budi Oktaviyan</item>
-        <item>Hendi Santika</item>
-        <item>Sidiq Permana</item>
+        <item>Ansela Vasintanya</item>
+        <item>Azeeva Mozza</item>
+        <item>Quesya Autum</item>
+        <item>Cheela Zoela</item>
+        <item>Lady Areez</item>
+        <item>Wanda Xyzu</item>
+        <item>Nasyeewa Ameera</item>
+        <item>Sallee Rimasei</item>
+        <item>Marsha Camille</item>
+        <item>Quenita Zefanya</item>
     </string-array>
 
     <string-array name="location">
