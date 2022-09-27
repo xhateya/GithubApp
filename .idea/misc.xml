@@ -9,8 +9,9 @@
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.172" />
         <entry key="app/src/main/res/drawable/ic_location.xml" value="0.139" />
         <entry key="app/src/main/res/drawable/rounded_background.xml" value="0.139" />
-        <entry key="app/src/main/res/layout/activity_detail.xml" value="0.21245727539062487" />
+        <entry key="app/src/main/res/layout/activity_detail.xml" value="0.12443847656250001" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
         <entry key="app/src/main/res/layout/item_user.xml" value="0.2522827894067681" />
         <entry key="app/src/main/res/layout/tes.xml" value="0.18229166666666666" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.169" />

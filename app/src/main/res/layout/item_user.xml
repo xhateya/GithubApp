@@ -19,7 +19,7 @@
             android:id="@+id/ivUser"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:src="@drawable/user11"
+            android:src="@drawable/user_3"
             android:layout_marginStart="5dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -46,6 +46,7 @@
             app:layout_constraintStart_toEndOf="@id/ivUser"
             android:text="name"
             android:textColor="@color/white"
+            app:drawableStartCompat="@drawable/ic_location"
             android:fontFamily="@font/rb_regular"
             android:textSize="16sp"
             android:layout_marginStart="20dp"/>

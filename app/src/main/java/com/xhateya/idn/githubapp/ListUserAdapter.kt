@@ -15,7 +15,7 @@ class ListUserAdapter(private val listUser: ArrayList<User>) :
         fun bind(user: User) {
 
             binding.tvUsername.text = user.username
-            binding.tvLocation.text = user.name
+            binding.tvLocation.text = user.location
 
             Glide.with(binding.ivUser.context)
                 .load(user.avatar)
@@ -26,7 +26,7 @@ class ListUserAdapter(private val listUser: ArrayList<User>) :
             itemView.setOnClickListener {
                 itemView.context?.startActivity(
                     itemView.context.intentFor<DetailActivity>(
-                        "extra_username" to user
+                        "extra_result" to user,
                     )
                 )
             }
@@ -45,15 +45,6 @@ class ListUserAdapter(private val listUser: ArrayList<User>) :
 
     override fun getItemCount(): Int = listUser.size
 
-    private lateinit var onItemClickCallback: OnItemClickCallback
-
-    interface OnItemClickCallback {
-        fun onItemClick(user: User)
-    }
-
-    fun setOnClickCallback(onItemClickCallback: OnItemClickCallback) {
-        this.onItemClickCallback = onItemClickCallback
-    }
 
 
 }

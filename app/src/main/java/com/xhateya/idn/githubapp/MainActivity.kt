@@ -35,12 +35,24 @@ class MainActivity : AppCompatActivity() {
         val contentUsername = resources.getStringArray(R.array.username)
         val contentLocation = resources.getStringArray(R.array.location)
         val contentAvatar : TypedArray = resources.obtainTypedArray(R.array.avatar)
+        val contentName = resources.getStringArray(R.array.name)
+        val contentAbout = resources.getStringArray(R.array.about)
+        val contentCompany= resources.getStringArray(R.array.company)
+        val contentFollowers = resources.getStringArray(R.array.followers)
+        val contentFollowing = resources.getStringArray(R.array.following)
+        val contentRepository= resources.getStringArray(R.array.repository)
         val listUser = ArrayList<User>()
         for (position in contentUsername.indices){
             val user = User(
                 contentUsername[position],
                 contentLocation[position],
-                contentAvatar.getResourceId(position, -1)
+                contentAvatar.getResourceId(position, -1),
+                contentName[position],
+                contentAbout[position],
+                contentCompany[position],
+                contentFollowers[position],
+                contentFollowing[position],
+                contentRepository[position]
             )
             listUser.add(user)
         }

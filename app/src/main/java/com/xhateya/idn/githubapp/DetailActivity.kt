@@ -8,7 +8,7 @@ import com.xhateya.idn.githubapp.databinding.ActivityDetailBinding
 class DetailActivity : AppCompatActivity() {
 
     companion object {
-        private var EXTRA_USERNAME = "extra_username"
+        private var EXTRA_RESULT = "extra_result"
     }
 
     private lateinit var detailBinding: ActivityDetailBinding
@@ -20,7 +20,7 @@ class DetailActivity : AppCompatActivity() {
         setContentView(detailBinding.root)
         supportActionBar?.hide()
 
-        val user = intent.getParcelableExtra<User>(EXTRA_USERNAME) as User
+        val user = intent.getParcelableExtra<User>(EXTRA_RESULT) as User
         Glide.with(this)
             .load(user.avatar)
             .into(detailBinding.ivUsrDetail)
